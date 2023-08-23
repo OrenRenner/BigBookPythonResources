@@ -91,8 +91,3 @@ def getClues(guess, secretNum):
         clues.sort()
         # Make a single string from the list of string clues.
         return ' '.join(clues)
-
-
-# If the program is run (instead of imported), run the game:
-if __name__ == '__main__':
-    main()
